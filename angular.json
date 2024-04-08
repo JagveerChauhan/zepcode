@@ -33,7 +33,10 @@
             "styles": [
               "src/styles.scss",
               "./node_modules/slick-carousel/slick/slick.scss",
-              "./node_modules/slick-carousel/slick/slick-theme.scss"
+              "./node_modules/slick-carousel/slick/slick-theme.scss",
+              "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.carousel.min.css",
+              "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.theme.default.min.css"
+             
     
             ],
             "scripts": [
@@ -165,6 +168,6 @@
     }
   },
   "cli": {
-    "analytics": "cdf4fcec-ef62-4933-b73b-8a462cd554f9"
+    "analytics": false
   }
 }
